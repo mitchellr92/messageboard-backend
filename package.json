@@ -2,15 +2,14 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
   "author": "<mitchellr92@live.com>",
   "license": "MIT",
   "dependencies": {
-    "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.20.4",
     "sqlite3": "^4.1.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.2"
   }
 }
