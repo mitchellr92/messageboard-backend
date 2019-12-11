@@ -10,10 +10,10 @@ server.use(express.json());
 server.use(cors());
 
 server.get("/", (req, res) => {
-    
+
 })
 
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 server.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`)
