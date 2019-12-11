@@ -7,6 +7,11 @@ const db = knex(dbConfig.development);
 const server = express();
 
 server.use(express.json());
+server.use(cors());
+
+server.get("/", (req, res) => {
+    
+})
 
 const PORT = 8080;
 
